@@ -12,6 +12,19 @@
 		77D55A7D20AAE74E00ADB263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A7B20AAE74E00ADB263 /* Main.storyboard */; };
 		77D55A7F20AAE74E00ADB263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A7E20AAE74E00ADB263 /* Assets.xcassets */; };
 		77D55A8220AAE74E00ADB263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A8020AAE74E00ADB263 /* LaunchScreen.storyboard */; };
+		77D55A8A20AAE76200ADB263 /* ApiParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A8920AAE76200ADB263 /* ApiParser.swift */; };
+		77D55A8C20AAE77900ADB263 /* SSHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A8B20AAE77900ADB263 /* SSHTTPClient.swift */; };
+		77D55A8E20AAE7AB00ADB263 /* GlobalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A8D20AAE7AB00ADB263 /* GlobalClass.swift */; };
+		77D55A9120AAE7F400ADB263 /* URLSettingsPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A8F20AAE7F400ADB263 /* URLSettingsPageVC.swift */; };
+		77D55A9220AAE7F400ADB263 /* URLStaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A9020AAE7F400ADB263 /* URLStaging.swift */; };
+		77D55A9420AAEB7D00ADB263 /* KeyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A9320AAEB7D00ADB263 /* KeyConstant.swift */; };
+		77D55A9620AAEC1500ADB263 /* InstagramActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A9520AAEC1500ADB263 /* InstagramActivityIndicator.swift */; };
+		77D55A9820AAEC5100ADB263 /* InternetReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A9720AAEC5100ADB263 /* InternetReachability.swift */; };
+		77D55A9A20AAEC6700ADB263 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A9920AAEC6700ADB263 /* UIFont+CustomFont.swift */; };
+		77D55A9C20AAEC7700ADB263 /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A9B20AAEC7700ADB263 /* UIColor+CustomColor.swift */; };
+		77D55A9E20AAECB600ADB263 /* AraHamahHoms-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A9D20AAECB600ADB263 /* AraHamahHoms-Regular.ttf */; };
+		77D55AA020AAED4A00ADB263 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A9F20AAED4A00ADB263 /* radio.png */; };
+		77D55AA220AAEDAC00ADB263 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AA120AAEDAC00ADB263 /* ButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,19 @@
 		77D55A7E20AAE74E00ADB263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77D55A8120AAE74E00ADB263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77D55A8320AAE74E00ADB263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D55A8920AAE76200ADB263 /* ApiParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiParser.swift; sourceTree = "<group>"; };
+		77D55A8B20AAE77900ADB263 /* SSHTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSHTTPClient.swift; sourceTree = "<group>"; };
+		77D55A8D20AAE7AB00ADB263 /* GlobalClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalClass.swift; sourceTree = "<group>"; };
+		77D55A8F20AAE7F400ADB263 /* URLSettingsPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSettingsPageVC.swift; sourceTree = "<group>"; };
+		77D55A9020AAE7F400ADB263 /* URLStaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLStaging.swift; sourceTree = "<group>"; };
+		77D55A9320AAEB7D00ADB263 /* KeyConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyConstant.swift; sourceTree = "<group>"; };
+		77D55A9520AAEC1500ADB263 /* InstagramActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramActivityIndicator.swift; sourceTree = "<group>"; };
+		77D55A9720AAEC5100ADB263 /* InternetReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetReachability.swift; sourceTree = "<group>"; };
+		77D55A9920AAEC6700ADB263 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
+		77D55A9B20AAEC7700ADB263 /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColor.swift"; sourceTree = "<group>"; };
+		77D55A9D20AAECB600ADB263 /* AraHamahHoms-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AraHamahHoms-Regular.ttf"; sourceTree = "<group>"; };
+		77D55A9F20AAED4A00ADB263 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
+		77D55AA120AAEDAC00ADB263 /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +80,21 @@
 		77D55A7620AAE74D00ADB263 /* SimpleAPIParser */ = {
 			isa = PBXGroup;
 			children = (
+				77D55AA120AAEDAC00ADB263 /* ButtonExtension.swift */,
+				77D55A9D20AAECB600ADB263 /* AraHamahHoms-Regular.ttf */,
+				77D55A9B20AAEC7700ADB263 /* UIColor+CustomColor.swift */,
+				77D55A9920AAEC6700ADB263 /* UIFont+CustomFont.swift */,
+				77D55A9720AAEC5100ADB263 /* InternetReachability.swift */,
+				77D55A9520AAEC1500ADB263 /* InstagramActivityIndicator.swift */,
+				77D55A9320AAEB7D00ADB263 /* KeyConstant.swift */,
+				77D55A8F20AAE7F400ADB263 /* URLSettingsPageVC.swift */,
+				77D55A9020AAE7F400ADB263 /* URLStaging.swift */,
+				77D55A8D20AAE7AB00ADB263 /* GlobalClass.swift */,
+				77D55A8B20AAE77900ADB263 /* SSHTTPClient.swift */,
+				77D55A8920AAE76200ADB263 /* ApiParser.swift */,
 				77D55A7720AAE74D00ADB263 /* AppDelegate.swift */,
 				77D55A7920AAE74E00ADB263 /* ViewController.swift */,
+				77D55A9F20AAED4A00ADB263 /* radio.png */,
 				77D55A7B20AAE74E00ADB263 /* Main.storyboard */,
 				77D55A7E20AAE74E00ADB263 /* Assets.xcassets */,
 				77D55A8020AAE74E00ADB263 /* LaunchScreen.storyboard */,
@@ -124,8 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				77D55A8220AAE74E00ADB263 /* LaunchScreen.storyboard in Resources */,
+				77D55A9E20AAECB600ADB263 /* AraHamahHoms-Regular.ttf in Resources */,
 				77D55A7F20AAE74E00ADB263 /* Assets.xcassets in Resources */,
 				77D55A7D20AAE74E00ADB263 /* Main.storyboard in Resources */,
+				77D55AA020AAED4A00ADB263 /* radio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +177,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D55A8E20AAE7AB00ADB263 /* GlobalClass.swift in Sources */,
+				77D55A9820AAEC5100ADB263 /* InternetReachability.swift in Sources */,
 				77D55A7A20AAE74E00ADB263 /* ViewController.swift in Sources */,
+				77D55A8A20AAE76200ADB263 /* ApiParser.swift in Sources */,
+				77D55A8C20AAE77900ADB263 /* SSHTTPClient.swift in Sources */,
+				77D55A9220AAE7F400ADB263 /* URLStaging.swift in Sources */,
+				77D55A9120AAE7F400ADB263 /* URLSettingsPageVC.swift in Sources */,
+				77D55A9620AAEC1500ADB263 /* InstagramActivityIndicator.swift in Sources */,
 				77D55A7820AAE74D00ADB263 /* AppDelegate.swift in Sources */,
+				77D55A9420AAEB7D00ADB263 /* KeyConstant.swift in Sources */,
+				77D55A9C20AAEC7700ADB263 /* UIColor+CustomColor.swift in Sources */,
+				77D55AA220AAEDAC00ADB263 /* ButtonExtension.swift in Sources */,
+				77D55A9A20AAEC6700ADB263 /* UIFont+CustomFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

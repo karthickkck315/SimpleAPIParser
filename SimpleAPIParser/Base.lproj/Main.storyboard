@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SimpleAPIParser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,6 +23,82 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--URL Settings PageVC-->
+        <scene sceneID="sIo-al-8mJ">
+            <objects>
+                <viewController storyboardIdentifier="URLSettingsPageVC" id="n5K-le-Eys" customClass="URLSettingsPageVC" customModule="Salaat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DU0-7Z-54o" customClass="GradientView" customModule="Salaat" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlA-Wi-0q6">
+                                <rect key="frame" x="51" y="155" width="272" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7zu-wQ-FDC"/>
+                                </constraints>
+                                <color key="tintColor" red="0.14720371369999999" green="0.2433902919" blue="0.58826833960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.20000156760000001" green="0.19999706749999999" blue="0.20000010730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapDevelopmentAction:" destination="n5K-le-Eys" eventType="touchUpInside" id="q0K-ui-Clt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeC-BY-YKW">
+                                <rect key="frame" x="51" y="212" width="272" height="44.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44.5" id="ZLY-gS-S0n"/>
+                                </constraints>
+                                <color key="tintColor" red="0.14720371369999999" green="0.2433902919" blue="0.58826833960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.20000156760000001" green="0.19999706749999999" blue="0.20000010730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapProductionAction:" destination="n5K-le-Eys" eventType="touchUpInside" id="hO9-8e-m8x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Niw-Vh-1hL">
+                                <rect key="frame" x="51" y="267.5" width="272" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="JeK-f5-nPc"/>
+                                </constraints>
+                                <color key="tintColor" red="0.14720371369999999" green="0.2433902919" blue="0.58826833960000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.20000156760000001" green="0.19999706749999999" blue="0.20000010730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapTestingAction:" destination="n5K-le-Eys" eventType="touchUpInside" id="ySa-nZ-DDB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Niw-Vh-1hL" firstAttribute="top" secondItem="NeC-BY-YKW" secondAttribute="bottom" constant="11" id="5Wb-Vz-s0R"/>
+                            <constraint firstItem="PlA-Wi-0q6" firstAttribute="centerX" secondItem="DU0-7Z-54o" secondAttribute="centerX" id="GXc-kB-Lti"/>
+                            <constraint firstItem="NeC-BY-YKW" firstAttribute="height" secondItem="Niw-Vh-1hL" secondAttribute="height" id="Ljw-Fw-oQ4"/>
+                            <constraint firstItem="PlA-Wi-0q6" firstAttribute="top" secondItem="UsL-eY-f37" secondAttribute="top" constant="135" id="Nvn-t1-2fN"/>
+                            <constraint firstItem="PlA-Wi-0q6" firstAttribute="leading" relation="lessThanOrEqual" secondItem="UsL-eY-f37" secondAttribute="leading" constant="51" id="Rrg-xA-LBl"/>
+                            <constraint firstItem="PlA-Wi-0q6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NeC-BY-YKW" secondAttribute="leading" id="S62-CY-umW"/>
+                            <constraint firstItem="NeC-BY-YKW" firstAttribute="top" secondItem="PlA-Wi-0q6" secondAttribute="bottom" constant="13" id="TYh-cr-Dow"/>
+                            <constraint firstItem="NeC-BY-YKW" firstAttribute="trailing" secondItem="Niw-Vh-1hL" secondAttribute="trailing" id="bKZ-tp-z4D"/>
+                            <constraint firstItem="PlA-Wi-0q6" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="NeC-BY-YKW" secondAttribute="trailing" id="i6C-X0-MKu"/>
+                            <constraint firstItem="NeC-BY-YKW" firstAttribute="leading" secondItem="Niw-Vh-1hL" secondAttribute="leading" id="keT-io-Y9X"/>
+                            <constraint firstItem="UsL-eY-f37" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="PlA-Wi-0q6" secondAttribute="trailing" constant="52" id="r3Z-Ka-Ddi"/>
+                            <constraint firstItem="PlA-Wi-0q6" firstAttribute="height" secondItem="NeC-BY-YKW" secondAttribute="height" id="tHR-DV-Hji"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UsL-eY-f37"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Hoi-2F-tJY"/>
+                    <connections>
+                        <outlet property="developmentButton" destination="PlA-Wi-0q6" id="Sph-YO-U1C"/>
+                        <outlet property="productionButton" destination="NeC-BY-YKW" id="kkX-aN-PN4"/>
+                        <outlet property="testingButton" destination="Niw-Vh-1hL" id="Bt6-vR-aZZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KeM-tc-6Qt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1108" y="174"/>
         </scene>
     </scenes>
 </document>
