@@ -22,9 +22,8 @@ class GlobalClass: NSObject {
     // MARK: activity
   func activity(){
     
-    let view = UIApplication.shared.keyWindow!
-    
     DispatchQueue.main.async(execute: {
+      let view = UIApplication.shared.keyWindow!
       //  set fullview bacground
       let screenSize: CGRect = UIScreen.main.bounds
       self.activityBackgroundView = UIView(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: screenSize.height))

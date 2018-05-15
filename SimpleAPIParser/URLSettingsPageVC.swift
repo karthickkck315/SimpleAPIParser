@@ -35,11 +35,11 @@ UIViewController {
     developmentButton.tintColor = .appDarkBlueColor
     developmentButton .setTitleColor(.appDarkGrayColor, for: .normal)
     
-    productionButton.set(image: #imageLiteral(resourceName: "radio_checkd_gray"), title: "Production", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    productionButton.set(image: #imageLiteral(resourceName: "radio_uncheck"), title: "Production", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
     productionButton.tintColor = .appDarkBlueColor
     productionButton.setTitleColor(.appDarkGrayColor, for: .normal)
     
-    testingButton.set(image: #imageLiteral(resourceName: "radio_checkd_gray"), title: "Testing", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    testingButton.set(image: #imageLiteral(resourceName: "radio_uncheck"), title: "Testing", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
     testingButton.tintColor = .appDarkBlueColor
     testingButton.setTitleColor(.appDarkGrayColor, for: .normal)
     
@@ -55,9 +55,9 @@ UIViewController {
     let env = Environment.Development.rawValue
     print(env)
     UserDefaults.standard.set(env, forKey:Key.UserDefaults.stagingURL)
-    developmentButton.set(image: #imageLiteral(resourceName: "radioCheck"), title: "Development", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
-    productionButton.set(image: #imageLiteral(resourceName: "radiouncheck"), title: "Production", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
-    testingButton.set(image: #imageLiteral(resourceName: "radiouncheck"), title: "Testing", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    developmentButton.set(image: #imageLiteral(resourceName: "radio_checkd_gray"), title: "Development", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    productionButton.set(image: #imageLiteral(resourceName: "radio_uncheck"), title: "Production", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    testingButton.set(image: #imageLiteral(resourceName: "radio_uncheck"), title: "Testing", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
     
   }
   
@@ -67,9 +67,9 @@ UIViewController {
     print(env)
     UserDefaults.standard.set(env, forKey:Key.UserDefaults.stagingURL)
     
-    developmentButton.set(image: #imageLiteral(resourceName: "radiouncheck"), title: "Development", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
-    productionButton.set(image: #imageLiteral(resourceName: "radioCheck"), title: "Production", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
-    testingButton.set(image: #imageLiteral(resourceName: "radiouncheck"), title: "Testing", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    developmentButton.set(image: #imageLiteral(resourceName: "radio_uncheck"), title: "Development", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    productionButton.set(image: #imageLiteral(resourceName: "radio_checkd_gray"), title: "Production", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    testingButton.set(image: #imageLiteral(resourceName: "radio_uncheck"), title: "Testing", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
   }
   
   // MARK: set Testing api
@@ -78,9 +78,9 @@ UIViewController {
     print(env)
     UserDefaults.standard.set(env, forKey:Key.UserDefaults.stagingURL)
     
-    developmentButton.set(image: #imageLiteral(resourceName: "radiouncheck"), title: "Development", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
-    productionButton.set(image: #imageLiteral(resourceName: "radiouncheck"), title: "Production", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
-    testingButton.set(image: #imageLiteral(resourceName: "radioCheck"), title: "Testing", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    developmentButton.set(image: #imageLiteral(resourceName: "radio_uncheck"), title: "Development", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    productionButton.set(image: #imageLiteral(resourceName: "radio_uncheck"), title: "Production", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
+    testingButton.set(image: #imageLiteral(resourceName: "radio_checkd_gray"), title: "Testing", titlePosition: .right, additionalSpacing: 30.0, state: .normal)
   }
   
 //  func saveEnvironment(environment : Environment){

@@ -23,7 +23,6 @@
 		77D55A9A20AAEC6700ADB263 /* UIFont+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A9920AAEC6700ADB263 /* UIFont+CustomFont.swift */; };
 		77D55A9C20AAEC7700ADB263 /* UIColor+CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55A9B20AAEC7700ADB263 /* UIColor+CustomColor.swift */; };
 		77D55A9E20AAECB600ADB263 /* AraHamahHoms-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A9D20AAECB600ADB263 /* AraHamahHoms-Regular.ttf */; };
-		77D55AA020AAED4A00ADB263 /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 77D55A9F20AAED4A00ADB263 /* radio.png */; };
 		77D55AA220AAEDAC00ADB263 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AA120AAEDAC00ADB263 /* ButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +45,6 @@
 		77D55A9920AAEC6700ADB263 /* UIFont+CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFont.swift"; sourceTree = "<group>"; };
 		77D55A9B20AAEC7700ADB263 /* UIColor+CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColor.swift"; sourceTree = "<group>"; };
 		77D55A9D20AAECB600ADB263 /* AraHamahHoms-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AraHamahHoms-Regular.ttf"; sourceTree = "<group>"; };
-		77D55A9F20AAED4A00ADB263 /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
 		77D55AA120AAEDAC00ADB263 /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +92,6 @@
 				77D55A8920AAE76200ADB263 /* ApiParser.swift */,
 				77D55A7720AAE74D00ADB263 /* AppDelegate.swift */,
 				77D55A7920AAE74E00ADB263 /* ViewController.swift */,
-				77D55A9F20AAED4A00ADB263 /* radio.png */,
 				77D55A7B20AAE74E00ADB263 /* Main.storyboard */,
 				77D55A7E20AAE74E00ADB263 /* Assets.xcassets */,
 				77D55A8020AAE74E00ADB263 /* LaunchScreen.storyboard */,
@@ -166,7 +163,6 @@
 				77D55A9E20AAECB600ADB263 /* AraHamahHoms-Regular.ttf in Resources */,
 				77D55A7F20AAE74E00ADB263 /* Assets.xcassets in Resources */,
 				77D55A7D20AAE74E00ADB263 /* Main.storyboard in Resources */,
-				77D55AA020AAED4A00ADB263 /* radio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
